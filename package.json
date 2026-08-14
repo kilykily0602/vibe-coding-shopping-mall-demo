@@ -1,0 +1,11 @@
+{
+  "name": "shoping-mall-demo",
+  "private": true,
+  "scripts": {
+    "start": "node server/index.js",
+    "postinstall": "npm install --prefix server"
+  },
+  "engines": {
+    "node": "20.x"
+  }
+}
